@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://cb2b7tsgm6haw"]
 
-[ext_resource type="Script" uid="uid://lhprem6ypopb" path="res://scenes/Main.gd" id="1_rvslj"]
-[ext_resource type="Script" uid="uid://bpfvnjgiiejbo" path="res://scenes/Camera2DMovement.gd" id="2_rvslj"]
-[ext_resource type="Script" uid="uid://c7taoayf5xklt" path="res://scenes/position_coordinates.gd" id="4_rarhs"]
-[ext_resource type="Script" uid="uid://brlb0smpvkekr" path="res://scenes/chunk_manager.gd" id="5_vcsgt"]
+[ext_resource type="Script" uid="uid://lhprem6ypopb" path="res://Scripts/Main.gd" id="1_rgh2o"]
+[ext_resource type="Script" uid="uid://bpfvnjgiiejbo" path="res://Scripts/Camera2DMovement.gd" id="2_pbw6q"]
+[ext_resource type="Script" uid="uid://c7taoayf5xklt" path="res://Scripts/position_coordinates.gd" id="3_v1gob"]
+[ext_resource type="Script" uid="uid://brlb0smpvkekr" path="res://Scripts/chunk_manager.gd" id="4_jw32o"]
 
 [sub_resource type="GDScript" id="GDScript_rarhs"]
 script/source = "extends Node2D
@@ -29,10 +29,10 @@ func _ready():
 "
 
 [node name="Main" type="Node2D"]
-script = ExtResource("1_rvslj")
+script = ExtResource("1_rgh2o")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-script = ExtResource("2_rvslj")
+script = ExtResource("2_pbw6q")
 
 [node name="ChunkGrid" type="Node2D" parent="."]
 script = SubResource("GDScript_rarhs")
@@ -40,7 +40,7 @@ script = SubResource("GDScript_rarhs")
 [node name="PositionCoordinates" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
-script = ExtResource("4_rarhs")
+script = ExtResource("3_v1gob")
 
 [node name="ChunkManager" type="Node2D" parent="."]
-script = ExtResource("5_vcsgt")
+script = ExtResource("4_jw32o")

@@ -1,1 +1,4 @@
 res://scenes/Main.tscn
+res://Scenes/Main.tscn
+res://Scripts/Main.gd
+res://Scripts/chunk_manager.gd

@@ -30,7 +30,7 @@ func spawn_clusters(num_clusters):
 			spawn_resource_node(resource, spawn_position)
 
 func spawn_resource_node(resource_type, position):
-	var scene = preload("res://scenes/ResourceNode.tscn")
+	var scene = preload("res://Scenes/ResourceNode.tscn")
 	var node_instance = scene.instantiate()
 	node_instance.position = position
 	node_instance.resource_type = resource_type  # Assumes ResourceNode has this property

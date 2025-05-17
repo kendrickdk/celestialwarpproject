@@ -6,8 +6,8 @@ extends Node2D
 var active_chunks = {}
 var chunk_resources = {}
 
-var chunk_grid_scene = preload("res://scenes/ChunkGrid.tscn")
-var resource_node_scene = preload("res://scenes/ResourceNode.tscn")
+var chunk_grid_scene = preload("res://Scenes/ChunkGrid.tscn")
+var resource_node_scene = preload("res://Scenes/ResourceNode.tscn")
 
 func _ready():
 	load_chunk_data()
