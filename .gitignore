@@ -1,0 +1,8 @@
+# Godot 4 ignores
+.import/
+*.import
+export_presets.cfg
+export.cfg
+
+# System files
+.DS_Store

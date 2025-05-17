@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1747459103
+chunk_grid.gd::GDScript/GDScript::3307881695350517935::1747366701::0::1::::<>Node2D<><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::611783767868257130::1747366701::1747459011::1::::<><><>0<>0<>432afc50e4d2b7dfc9498791297b2501<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile/TextFile::-1::1747366701::0::1::::<><><>0<>0<><>::
+::res://scenes/::1747459014
+Camera2DMovement.gd::GDScript/GDScript::3450873981556064628::1747366701::0::1::::<>Camera2D<><>0<>0<><>::
+ChunkGrid.tscn::PackedScene::4239176886543825199::1747459014::0::1::::<><><>0<>0<><>::uid://bnemlfo7b8wnf::::res://chunk_grid.gd
+chunk_grid.gd::GDScript::1794601962094625773::1747459014::0::1::::<>Node2D<><>0<>0<><>::
+chunk_manager.gd::GDScript/GDScript::3602445507342646005::1747366701::0::1::::<>Node2D<><>0<>0<><>::
+Main.gd::GDScript/GDScript::787469267756884879::1747366701::0::1::::<>Node2D<><>0<>0<><>::
+Main.tscn::PackedScene::4898887298821578922::1747459014::0::1::::<><><>0<>0<><>::uid://lhprem6ypopb::::res://scenes/Main.gd<>uid://bpfvnjgiiejbo::::res://scenes/Camera2DMovement.gd<>uid://0tk3j6xlwj3r::::res://scenes/chunk_grid.gd<>uid://c7taoayf5xklt::::res://scenes/position_coordinates.gd<>uid://brlb0smpvkekr::::res://scenes/chunk_manager.gd
+position_coordinates.gd::GDScript/GDScript::7058132579588531817::1747366701::0::1::::<>Label<><>0<>0<><>::
+ResourceNode.tscn::PackedScene::5012916184413551157::1747459014::0::1::::<><><>0<>0<><>::uid://c0qplghsyrwh8::::res://scenes/resource_node.gd<>uid://iyl8vuosrj0m::::res://icon.svg
+resource_node.gd::GDScript/GDScript::6561523227830754287::1747366701::0::1::::<>Node2D<><>0<>0<><>::
