@@ -1,5 +1,12 @@
-Node2D
+HSlider
 Label
+HBoxContainer
+Button
+VBoxContainer
+CheckBox
+Window
+Control
+Node2D
 Camera2D
 Timer
 Sprite2D

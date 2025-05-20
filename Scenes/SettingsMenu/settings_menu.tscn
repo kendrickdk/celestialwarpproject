@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://cut5n8bthljgx"]
+
+[node name="SettingsDialog" type="Window"]
+initial_position = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Settings" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="VolumeContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Master Volume" type="Label" parent="VBoxContainer/VolumeContainer"]
+layout_mode = 2
+
+[node name="FullscreenContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Fullscreen" type="Label" parent="VBoxContainer/FullscreenContainer"]
+layout_mode = 2
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer/FullscreenContainer/Fullscreen"]
+layout_mode = 0
+offset_right = 24.0
+offset_bottom = 24.0
+
+[node name="ButtonContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ApplyBtn" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+text = "Apply"
+
+[node name="BackBtn" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+text = "Back"
+
+[node name="Settings2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="VolumeContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Master Volume" type="Label" parent="VBoxContainer/VolumeContainer2"]
+layout_mode = 2
+
+[node name="VolumeSlider" type="HSlider" parent="VBoxContainer/VolumeContainer2/Master Volume"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 16.0
+max_value = 1.0
+step = 0.01
+value = 0.75
